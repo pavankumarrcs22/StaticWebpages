@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3d0cc91;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.546);
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+/* About Us & Features Section */
+.info-section {
+    background: #fff;
+    margin: 40px auto;
+    padding: 30px 20px;
+    border-radius: 12px;
+    max-width: 80%;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.info-section h2 {
+    text-align: center;
+    color: #2d5c5c;
+    margin-bottom: 18px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-content p {
+    flex: 1 1 220px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.about-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #2d5c5c;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.feature-item {
+    background: #eaf4f3;
+    border-radius: 10px;
+    padding: 22px 18px;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    flex: 1 1 220px;
+}
+
+.feature-item p {
+    margin-bottom: 14px;
+    color: #2d5c5c;
+    font-weight: 500;
+}
+
+.feature-btn {
+    background: #2d5c5c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.feature-btn:hover {
+    background: #1b3636;
+}
+
+/* Footer */
+#main-footer {
+    background: #2d5c5c;
+    color: #fff;
+    text-align: center;
+    padding: 24px 10px 14px 10px;
+    margin-top: 40px;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+#main-footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#main-footer a:hover {
+    color: #b3d0cc;
+}
